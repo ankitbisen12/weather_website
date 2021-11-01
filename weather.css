@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
 
 html {
-  background: url("imgs/bridge.jpg") no-repeat center center fixed;
+  background: url("bridge.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -26,7 +26,7 @@ html {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 70%;
-  background-image: url("imgs/modal-img1.jpg");
+  background-image: url("modal-img1.jpg");
   padding: 3rem;
   color: rgb(218, 205, 205);
   border-radius: 5px;
@@ -89,7 +89,7 @@ html {
   background-color: thistle;
   margin-top: 20px;
   padding: 10px 10px;
-   background: url('imgs/bridge.jpg') no-repeat center center fixed; */
+   background: url('bridge.jpg') no-repeat center center fixed; */
 }
 .crd_contain .card1 {
   font-family: "Ubuntu", sans-serif;
