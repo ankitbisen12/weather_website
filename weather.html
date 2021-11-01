@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="weather.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mukta&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script defer src="weather.js"></script>
+    <title>WeatherOx</title>
+  </head>
+
+  <body>
+    <div class="info--modal hidden">
+      <button class="close__info-modal">&times;</button>
+      <h1 class="modal_title">
+        <i class="fas fa-cloud-rain"></i> About WeatherOx:-
+      </h1>
+      <p>
+        It is a weather providing website which gives you weather update of your
+        locality(i.e where you are right now ) based on latitude and
+        longitude.To use it ,simply click the
+        <strong>Fetch weather</strong> button and you get the weather. Concepts
+        I used for making this app is Async-await, API,http
+        get,post,request,setTimeout, EventListeners & little bit of styling.
+      </p>
+    </div>
+    <div class="overlay hidden"></div>
+    <div class="container">
+      <div class="txt">
+        <h1>WeatherOx Report</h1>
+      </div>
+      <div class="insertedHtml"></div> 
+    </div>
+      </div>
+      <div class="button">
+        <div class="innerbutton">
+          <button class="fetch_data">
+            <i class="fas fa-cloud"></i> Fetch Weather
+          </button>
+        </div>
+      </div>
+      <footer class="footer display">
+        <div class="inner__footer">
+          <div class="fttr">
+            <p>
+              <i class="far fa-copyright"></i> Copyright 2019-2025,Ninhydrin
+              Project | Made By
+              <a href="https://www.linkedin.com/in/ankit-bisen-13a55a1a7"
+                >Ankit Bisen <i class="fas fa-external-link-alt"></i
+              ></a>
+            </p>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
